@@ -9,7 +9,7 @@
       openshift_cluster_ingress_domain }}"
     _rhpds_build_secured_dev_workflows_developer_hub_devspaces_host: "devspaces.{{
       openshift_cluster_ingress_domain }}"
-    _rhpds_build_secured_dev_workflows_developer_hub_quay_host: {{ocp4_workload_quay_operator_registry_route}}
+    _rhpds_build_secured_dev_workflows_developer_hub_quay_host: {{ ocp4_workload_quay_operator_registry_route }}
     _rhpds_build_secured_dev_workflows_developer_hub_argocd_host: argocd-server-{{
       rhpds_build_secured_dev_workflows_developer_hub_argocd_namespace }}.{{
       openshift_cluster_ingress_domain }}
